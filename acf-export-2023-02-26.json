@@ -1,0 +1,905 @@
+[
+    {
+        "key": "group_63fa5317d4e70",
+        "title": "Events",
+        "fields": [
+            {
+                "key": "field_63fa5318c2afb",
+                "label": "Adult Price",
+                "name": "adult_price",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63fa5330c2afc",
+                "label": "Child Price",
+                "name": "child_price",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63fa533cc2afd",
+                "label": "Family Price",
+                "name": "family_price",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63fa534dc2afe",
+                "label": "Event Start Date",
+                "name": "event_start_date",
+                "aria-label": "",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "d\/m\/Y",
+                "return_format": "d\/m\/Y",
+                "first_day": 1
+            },
+            {
+                "key": "field_63fa536cc2b00",
+                "label": "YouTube Event Link",
+                "name": "youtube_event_link",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_63fa5a247bbbf",
+                "label": "Hero Image",
+                "name": "event_hero_image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_63fa6e2907544",
+                "label": "Ticket URL",
+                "name": "pretix_event_link",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_63fba6075aa87",
+                "label": "Event Gallery",
+                "name": "event_gallery",
+                "aria-label": "",
+                "type": "gallery",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min": "",
+                "max": "",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "insert": "append",
+                "preview_size": "medium"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "events"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_5cf86dce4d709",
+        "title": "Rolling Stock",
+        "fields": [
+            {
+                "key": "field_5cf86e31f0df3",
+                "label": "Unit Type",
+                "name": "unit_type",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Diesel Locomotive": "Diesel Locomotive",
+                    "Steam Locomotive": "Steam Locomotive",
+                    "Multiple Unit": "Multiple Unit",
+                    "Passenger Carriage": "Passenger Carriage",
+                    "Freight Wagon": "Freight Wagon",
+                    "On Track Plant": "On Track Plant"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5cf86e84f0df4",
+                "label": "Location",
+                "name": "location",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Oswestry": "Oswestry",
+                    "Llynclys": "Llynclys",
+                    "Blodwell": "Blodwell",
+                    "Weston Wharf": "Weston Wharf",
+                    "Gobowen": "Gobowen"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5cf86eabf0df5",
+                "label": "State",
+                "name": "state",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Restored": "Restored",
+                    "Restoration In Progress": "Restoration In Progress",
+                    "Awaiting Restoration": "Awaiting Restoration",
+                    "Cosmetic Restoration": "Cosmetic Restoration",
+                    "Stored": "Stored"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5cf86ef3f0df6",
+                "label": "In Service",
+                "name": "in_service",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "60",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Not In Service": "Not In Service",
+                    "Regular Passenger Service": "Regular Passenger Service",
+                    "Occasional Passenger Service": "Occasional Passenger Service",
+                    "Exhibition Trains Only": "Exhibition Trains Only",
+                    "Yard Shunter": "Yard Shunter",
+                    "Static Exhibit": "Static Exhibit",
+                    "Shop\/Cafe Facility": "Shop\/Cafe Facility",
+                    "Permanent Way": "Permanent Way"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5cf86de9f0df2",
+                "label": "Name",
+                "name": "name",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "The name of this particular unit",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter name of this item of stock",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e1b4c2f1da33",
+                "label": "Wheel Configuration",
+                "name": "wheel_configuration",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Diesel Locomotive"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Steam Locomotive"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d096f943305d",
+                "label": "Manufacturer",
+                "name": "manufacturer",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e1b56b830375",
+                "label": "Class",
+                "name": "class",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Diesel Locomotive"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Steam Locomotive"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Multiple Unit"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Passenger Carriage"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d09707052b95",
+                "label": "Running Number",
+                "name": "running_number",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e1b4e32c46b4",
+                "label": "TOPS Number",
+                "name": "tops_number",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Multiple Unit"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Diesel Locomotive"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e1bdfa518c4b",
+                "label": "Lot Number",
+                "name": "lot_number",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Passenger Carriage"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d096fa83305e",
+                "label": "Build Year",
+                "name": "build_year",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            },
+            {
+                "key": "field_5e1b8548ceada",
+                "label": "Built At",
+                "name": "built_at",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Multiple Unit"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Passenger Carriage"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e1b4ca31da38",
+                "label": "Number Of Engines",
+                "name": "number_of_engines",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Diesel Locomotive"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Multiple Unit"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 1,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e1b4c631da36",
+                "label": "Engine Type",
+                "name": "engine_type",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Diesel Locomotive"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Multiple Unit"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e1b4cf1b7035",
+                "label": "Final Drive",
+                "name": "final_drive",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Diesel Locomotive"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Multiple Unit"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Electric": "Electric",
+                    "Hydraulic": "Hydraulic",
+                    "Mechanical": "Mechanical"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5e1b536a1ddef",
+                "label": "Loco Brakes",
+                "name": "loco_brakes",
+                "aria-label": "",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Diesel Locomotive"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Steam Locomotive"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Mechanical": "Mechanical",
+                    "Steam": "Steam",
+                    "Vacuum": "Vacuum",
+                    "Air": "Air"
+                },
+                "allow_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value",
+                "save_custom": 0
+            },
+            {
+                "key": "field_5e1b54129014f",
+                "label": "Working Pressure",
+                "name": "working_pressure",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Steam Locomotive"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e1b53c4bca94",
+                "label": "Train Brakes",
+                "name": "train_brakes",
+                "aria-label": "",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Diesel Locomotive"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Steam Locomotive"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Multiple Unit"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Passenger Carriage"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5cf86e31f0df3",
+                            "operator": "==",
+                            "value": "Freight Wagon"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Vacuum": "Vacuum",
+                    "Air": "Air",
+                    "Mechanical": "Mechanical",
+                    "Unfitted": "Unfitted"
+                },
+                "allow_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value",
+                "save_custom": 0
+            },
+            {
+                "key": "field_5d096fc23305f",
+                "label": "About This Unit",
+                "name": "about_this_unit",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "br"
+            },
+            {
+                "key": "field_5e19350f7ce5e",
+                "label": "Photos",
+                "name": "photos",
+                "aria-label": "",
+                "type": "gallery",
+                "instructions": "You may add as many images to the gallery as you wish. These will be displayed in the Photos section of the page for this item of rolling stock.\r\nImages will open in the ligghtbox when they are clicked.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "insert": "append",
+                "library": "all",
+                "min": "",
+                "max": "",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "rolling_stock"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "seamless",
+        "label_placement": "left",
+        "instruction_placement": "field",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

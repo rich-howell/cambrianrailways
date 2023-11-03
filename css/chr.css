@@ -1,0 +1,488 @@
+@media (max-width: 567px) {
+    .navbar-brand {
+        max-width: 235px;
+    }
+}
+  
+ .bg-light {
+    background-color: #f4f8fa !important;
+  }
+  
+ .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+  }
+  
+a.link {
+    color: #3e4555;
+  }
+  
+ a.link:hover {
+    color: #316ce8;
+  }
+  
+.on-hover {
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  
+  .on-hover:hover {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  
+  .date-pos {
+    right: 10px;
+    top: 10px;
+  }
+  
+ .date-pos span {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .bg-info-gradiant {
+      background: #e3dd79;
+      background: -webkit-linear-gradient(legacy-direction(to right), #e3dd79 0%, #9e8343 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#e3dd79), to(#9e8343));
+      background: -webkit-linear-gradient(left, #e3dd79 0%, #9e8343 100%);
+      background: -o-linear-gradient(left, #e3dd79 0%, #9e8343 100%);
+      background: linear-gradient(to right, #e3dd79 0%, #9e8343 100%);
+  }
+
+/* The template hero image
+ No background is set here, it will be applied in the template using the featured image.
+ */
+.template-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    height: 380px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.timetables-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/timetables-for-oswestry.png");
+    height: 280px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* The template hero image
+ No background is set here, it will be applied in the template using the featured image.
+ */
+.post-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/post-hero.webp");
+    height: 280px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* The template hero image
+ No background is set here, it will be applied in the template using the featured image.
+ */
+.dtx-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/post-hero.webp");
+    height: 280px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.post-featured-image {
+    background-position: top;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/event-hero.webp");
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.museum-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/museum-hero.webp");
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.crop-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/crop-hero.webp");
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* The hero image */
+.snacks-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/snax.webp");
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* The hero image */
+.weston-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/weston-hero.webp");
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* The hero image */
+.visit-us-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/visit-us-hero.webp");
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* The hero image */
+.contact-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/contact-hero.webp");
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* The hero image */
+.stonehouse-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/stonehouse-hero.webp");
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.charter-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/charter-hero.png");
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.vols-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/vol-hero.webp");
+    height: 686px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.fares-hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/fares-hero.webp");
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Alert */
+
+.alert-info {
+    background-color: #e3dd79;;
+    color: #000;
+    border: none;
+}
+
+/* Blog Posts */
+
+.blog-post {
+    margin-bottom: 4rem;
+}
+
+.blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+}
+
+.chr-card-head {
+    border-bottom: none !important;
+    background-color: #9e8343;
+}
+
+.border-seperator {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-inline: .8rem;
+}
+
+.nav-link.active, .nav-link:hover {
+    background-color: #e3dd79 !important;
+    color: #000 !important;
+}
+
+.page-link {
+    background-color: #e3dd79;
+    border: none;
+    color: #000;
+}
+
+.page-link.current {
+    background-color: #673827;
+    border: none;
+    color: #fff;
+}
+
+.page-link:hover {
+    background-color: #673827;
+    color: #fff;
+}
+
+a {
+    color: #673827;
+}
+
+a:hover {
+    color: #e3dd79;
+}
+
+.btn-chr {
+    background-color: #e3dd79;
+    border-color: #e3dd79;
+    color: #000;
+}
+
+.btn-chr:hover {
+    background-color: #e3dd79;
+    border-color: #e3dd79;
+    color: #000;
+}
+
+.btn-primary {
+    background-color: #e3dd79;
+    border-color: #e3dd79;
+    color: #000;
+}
+
+.btn-primary:hover {
+    background-color: #673827;
+    border-color: #673827;
+}
+
+.nav-link.text-white.hero {
+    background-color: #673827;
+}
+
+.nav-pills li {
+    margin-left: 5px;
+}
+
+.icon-list li::before {
+    display: block;
+    flex-shrink: 0;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: .5rem;
+    content: "";
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212529' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/%3E%3C/svg%3E") no-repeat center center / 100% auto;
+}
+
+#header-body {
+    background-color: #4b493c;
+}
+
+/* https://blog.hubspot.com/website/scrolling-text-css */
+
+.news-banner {
+    background-color: #9e8343;
+    color: #fff;
+    overflow: hidden;
+}
+
+#news-text {
+    text-align: right;
+
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+
+    -moz-animation: my-animation 60s linear infinite;
+    -webkit-animation: my-animation 60s linear infinite;
+    animation: my-animation 60s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+    }
+    to {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from {
+        -webkit-transform: translateX(100%);
+    }
+    to {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.reviews {
+    min-height: 200px;
+    background-color: #9e8343;
+    color: #fff;
+}
+
+#review-text {
+    text-align: center;
+}
+
+.social-media {
+    background-color: #9e8343;
+    color: #fff;
+}
+
+
+/* CSS Added By Golak */
+.dropdown-menu {
+    border-radius: 0;
+}
+
+.dropdown-menu.show {
+    min-width: 100%;
+    margin-top: 0;
+    top: auto;
+}
+
+.mega-content h5 {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.mega-content ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.mega-content ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+
+    .border-seperator {
+        border-right: 1px solid #dee2e6;
+        border-bottom: 0;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        min-width: 100%;
+        left: 0;
+
+    }
+
+    .dropdown .dropdown-menu {
+        display: none;
+    }
+
+    /* WooCommerce Overrides */
+    .product_meta {
+        display: none !important;
+    }
+
+    .single_add_to_cart_button {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .thwepo-extra-options.thwepo_simple {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 20px !important;
+    }
+
+    .quantity {
+        margin-top: 20px !important;
+    }
+
+    .fasc-button {
+        display: none !important;
+    }
+
+}

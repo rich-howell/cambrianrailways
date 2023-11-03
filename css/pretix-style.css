@@ -1,0 +1,200 @@
+
+
+.pretix-widget a, .pretix-widget-alert-box a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar .pretix-widget-event-calendar-head {
+    display: flex !important;
+}
+
+.pretix-widget .pretix-widget-event-list-back {
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+    font-size: 1.3em;
+}
+
+.pretix-widget .pretix-widget-event-header {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.pretix-widget .pretix-widget-event-details {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-widget-has-events {
+    background: #e3dd79;
+    color: #262525 !important;
+    cursor: pointer;
+}
+
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-event {
+    display: block;
+    border-radius: 4px;
+    padding: 5px;
+    color: #262525 !important;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.pretix-widget .pretix-widget-event-availability-timetable-steamdiesel .pretix-widget-event-list-entry-availability span,.pretix-widget .pretix-widget-event-availability-timetable-steamdiesel.pretix-widget-event-calendar-event{
+    background-color:#e3dd79;
+}
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-widget-has-events.pretix-widget-event-availability-timetable-steamdiesel {
+    background: #e3dd79;
+}
+.pretix-widget .pretix-widget-event-availability-timetable-diesel .pretix-widget-event-list-entry-availability span,.pretix-widget .pretix-widget-event-availability-timetable-diesel.pretix-widget-event-calendar-event{
+    background-color:#F0DA1D;
+}
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-widget-has-events.pretix-widget-event-availability-timetable-diesel .pretix-mobile-timetable-diesel {
+    background: #F0DA1D;
+}
+.pretix-widget .pretix-widget-event-availability-timetable-pacer .pretix-widget-event-list-entry-availability span,.pretix-widget .pretix-widget-event-availability-timetable-pacer.pretix-widget-event-calendar-event{
+    background-color:#e3dd79;
+}
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-widget-has-events.pretix-widget-event-availability-timetable-pacer {
+    background: #e3dd79;
+}
+.pretix-widget .pretix-widget-event-availability-timetable-evening .pretix-widget-event-list-entry-availability span,.pretix-widget .pretix-widget-event-availability-timetable-evening.pretix-widget-event-calendar-event {
+    background-color:#03A9F4;
+}
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td .pretix-widget-event-availability-timetable-evening {
+    background: #03A9F4;
+}
+
+.pretix-widget .pretix-widget-event-availability-special .pretix-widget-event-list-entry-availability span,.pretix-widget .pretix-widget-event-availability-special.pretix-widget-event-calendar-event {
+    background-color:  #c878f9;
+}
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td .pretix-widget-event-availability-special {
+    background:  #c878f9 ;
+}
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-head {
+    display: flex;
+    flex-direction: row;
+    background: #4b493c;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: +1em;
+}
+
+.pretix-widget a, .pretix-widget-alert-box a {
+    color: #f6eeee !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-head .pretix-widget-event-calendar-next-month, .pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-head .pretix-widget-event-calendar-previous-month {
+    display: block;
+    width: 25%;
+    color: white;
+    font-weight: bold;
+}
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-table thead {
+    width:100%;
+    background-color: #87714a;
+    color: white;
+}
+.pretix-widget .pretix-widget-event-calendar .pretix-widget-event-calendar-table {
+    width: 100%;
+    background: #73706a;
+    color: white;
+}
+div .pretix-widget button {
+    background-color: #5b5b5b;
+    border-color: #9e8343;
+}
+div .pretix-widget:hover button {
+    background-color: #9e8343;
+    border-color: #9e8343;
+}
+div .pretix-widget:visited button {
+    background-color: #9e8343;
+    border-color: #9e8343;
+}
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-widget-has-events {
+    background: none;
+}
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-mobile-timetable-steamdiesel {
+    background: #e3dd79 !important;
+    cursor: pointer;
+}
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-mobile-timetable-diesel {
+    background: #F0DA1D !important;
+    cursor: pointer;
+}
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-mobile-timetable-pacer {
+    background: #e3dd79 !important;
+    cursor: pointer;
+}
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-mobile-timetable-evening {
+    background: #03A9F4 !important;
+    cursor: pointer;
+}
+
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-calendar td.pretix-mobile-special {
+    background: #c878f9  !important;
+    cursor: pointer;
+}
+
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-name {
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.pretix-widget .pretix-widget-event-list-entry {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    flex-wrap: wrap;
+    color: #222;
+    background: #acacac;
+    padding: 0 !important;
+    color: #000 !important;
+}
+
+.pretix-widget .pretix-widget-event-list-entry .pretix-widget-event-list-entry-date {
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+.pretix-widget.pretix-widget-mobile .pretix-widget-event-list-entry .pretix-widget-event-list-entry-name {
+    width: 100%;
+    background: #9e874d;
+    color: white;
+}
+
+.pretix-widget .pretix-widget-item-row {
+    padding: 10px 0;
+    background-color: beige;
+    margin: 5px;
+    color: black;
+}
+
+
+
+.pretix-widget {
+    margin: 10px 0;
+    padding: 0 10px;
+    position: relative;
+    min-height: 208px;
+    border-radius: 3px;
+    background-color: #4b493c;
+    color: whitesmoke;
+}
